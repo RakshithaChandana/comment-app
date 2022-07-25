@@ -1,0 +1,158 @@
+/* Write your CSS here */
+body {
+  margin: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+.app-container {
+  background-color: #dee0e3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+}
+.comment-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-weight: bold;
+}
+.paragraph {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  color: #475569;
+  font-family: 'Roboto';
+}
+.name-input-element {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+.textarea-element {
+  padding: 10px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: 0px;
+  border-right: 0px;
+  width: 100%;
+  border-left: 0px;
+  border-bottom: 2px solid;
+  color: #cbd2d9;
+}
+.image {
+  margin-left: 150px;
+}
+.button {
+  background-color: #0284c7;
+  height: 38px;
+  width: 150px;
+  border-width: 0px;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border-radius: 5px;
+}
+.comments-container {
+  display: flex;
+  flex-direction: column;
+}
+.comment-count {
+  background-color: #0284c7;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Roboto';
+  width: 33px;
+  height: 33px;
+  text-align: center;
+  align-self: center;
+  border-width: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment-count-heading {
+  color: #334155;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+
+.comment-count-container {
+  display: flex;
+  margin-left: 8px;
+}
+.logo {
+  border-style: solid;
+  font-size: 20px;
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  padding: 15px;
+  height: 50px;
+  width: 50px;
+
+  border-radius: 60px;
+
+  border-width: 0px;
+}
+.list-items-container {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .app-container {
+    padding: 10px;
+    border-width: 2px;
+    border-style: dashed;
+  }
+  .comment-heading {
+    font-size: 35px;
+  }
+  .paragraph {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .image {
+    margin: 0px;
+    order: -1;
+    width: 90%;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .name-input-element {
+    width: 90%;
+  }
+  .textarea-element {
+    width: 90%;
+  }
+  .comment-count-container {
+    margin: 0px;
+  }
+  .logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 60px;
+    font-size: 20px;
+  }
+}

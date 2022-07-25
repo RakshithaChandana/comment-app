@@ -1,0 +1,133 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+body {
+  margin: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+.comments-containers {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  border-style: solid;
+  border-width: 2px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #cbd2d9;
+  margin-left: 0px;
+}
+.name-comment-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  display: flex;
+}
+.name {
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #334155;
+  margin-left: 16px;
+}
+.time {
+  color: #94a3b8;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-top: 18px;
+  margin-left: 20px;
+}
+.comment {
+  color: #64748b;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-left: 68px;
+  margin-top: 0px;
+}
+.name-time-container {
+  display: flex;
+}
+.like-icon {
+  height: 26px;
+  width: 26px;
+}
+.like-button {
+  border-width: 0px;
+  background-color: transparent;
+}
+.delete-icon {
+  height: 30px;
+  width: 30px;
+}
+.delete-button {
+  border-width: 0px;
+  background-color: transparent;
+}
+.like-delete-container {
+  display: flex;
+
+  justify-content: space-between;
+  margin-top: 0px;
+}
+.like-container {
+  display: flex;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+.like-text {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.text-color {
+  color: #0ea5e9;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+  .name {
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: 500;
+    margin-top: 16px;
+  }
+  .time {
+    font-size: 14px;
+    margin-left: 8px;
+    margin-top: 18px;
+  }
+  .comment {
+    font-size: 18px;
+    margin-top: 0px;
+  }
+}
